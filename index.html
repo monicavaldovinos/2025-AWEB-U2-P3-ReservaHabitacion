@@ -1,0 +1,140 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h1>Reserva de habitación</h1>
+                </td>
+            </tr>
+            <tr>
+                <td id="izquierda">
+                    <form>
+                        <p>
+                        <label for="nombre">Nombre:</label>
+                        </p>
+                        <p>
+                        <label for="apellidos">Apellidos:</label>
+                        </p>
+                        <p>
+                        <label for="direccion">Dirección:</label>
+                        </p>
+                        <p>
+                        <label for="calle">Calle:</label>
+                        </p>
+                        <p>
+                        <label for="colonia">Colonia:</label>
+                        </p>
+                        <p>
+                        <label for="n">N.:</label>
+                        </p>
+                        <p>
+                        <label for="CP">Codigo Postal:</label>
+                        </p>
+                        <p>
+                        <label for="estado">Estado:</label>
+                        </p>
+                </td>
+                <td id="derecha">
+                    <p>
+                        <input type="text" id="nombre" name="nombre">
+                    </p>
+                    <p>
+                        <input type="text" id="apellidos" name="apellidos">
+                    </p>
+                    <p>
+                        <input type="text" id="direccion" name="direccion">
+                    </p>
+                    <p>
+                        <input type="text" id="calle" name="calle">
+                    </p>
+                    <p>
+                        <input type="text" id="colonia" name="colonia">
+                    </p>
+                    <p>
+                        <input type="number" id="n" name="n">
+                    </p>
+                    <p>
+                        <input type="number" id="CP" name="CP">
+                    </p>
+                    <p>
+                        <input type="text" id="estado" name="estado">
+                    </p>
+                </td>
+                </form>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                            <p>
+                                <label for="fechaEntrada">Fecha d entrada:</label>
+                            </p>
+                            <p>
+                                <label for="fechaSalida">Fecha de salida:</label>
+                            </p>
+                            <p>
+                                <label for="tipoHabitacion">Tipo de habitación:</label>
+                            </p>
+                            <p>
+                                <label for="tipoCama">Tipo de habitación:</label>
+                            </p>
+                </td>
+                <td>
+                    <p>
+                        <input type="date" id="fechaEntrada" name="fechaEntrada">
+                    </p>
+                    <p>
+                        <input type="date" id="fechaSalida" name="fechaSalida">
+                    </p>
+                    <p>
+                        <select id="tipoHabitacion" name="tipoHabitacion">
+                                    <option>Simple</option>
+                                    <option>Duplex</option>
+                                    <option>Premium</option>
+                        </select>
+                    </p>
+                    <p>
+                        <select id="tipoCama" name="tipoCama">
+                                    <option>Matrimonial</option>
+                                    <option>King</option>
+                                    <option>Quing</option>
+                        </select>
+                    </p>
+                </td>
+                </form>
+            </tr>
+            <tr>
+                <form>
+                <td>
+                            <p>
+                                <label for="cantidadPersonas">Cantidad de personas:</label>
+                            </p>
+                            <p>
+                                <label for="rfc">RFC:</label>
+                            </p>
+                            <p>
+                                <label for="telefonoContacto">Teléfono de contacto:</label>
+                            </p>
+                </td>
+                <td>
+                    <p>
+                        <input type="number" id="cantidadPersonas" name="cantidadPersonas">
+                    </p>
+                    <p>
+                        <input type="text" id="rfc" name="rfc">
+                    </p>
+                    <p>
+                        <input type="number" id="telefonoContacto" name="telefonoContacto">
+                    </p>
+                </td>
+                </form>
+            </tr>
+        </table>
+    </body>
+    </html>

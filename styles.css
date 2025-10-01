@@ -1,0 +1,47 @@
+table{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    table-layout: auto;
+    background-color: #05668d;
+    border-radius: 10px;
+}
+#izquierda{
+    width: 22%;
+    max-width: 22%;
+}
+#derecha{
+    max-width: 78%;
+    align-content: center; 
+}
+input{
+    width: 75%;
+    margin: 0 auto;
+}
+body{
+    color: azure;
+    background-color: #427aa1;
+}
+fieldset{
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+}
+legend{
+    width: 100%;
+    display: block;
+     box-sizing:border-box;
+}
+select{
+    width: 76%;
+}
+label{
+    margin-left: 9px;
+}
+h1{
+    text-align: center;
+}
+tr{
+  border-top:2px solid rgba(255,255,255,.35); /* separador */
+  padding-top:12px;                           /* respiro tras la línea */
+}
