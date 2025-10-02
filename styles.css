@@ -12,11 +12,14 @@ table{
 }
 #derecha{
     max-width: 78%;
-    align-content: center; 
+    align-content: right;
+    align-items: right;
+    margin-right: 0;
 }
 input{
     width: 75%;
     margin: 0 auto;
+    border-radius: 5px;
 }
 body{
     color: azure;
@@ -42,6 +45,19 @@ h1{
     text-align: center;
 }
 tr{
-  border-top:2px solid rgba(255,255,255,.35); /* separador */
-  padding-top:12px;                           /* respiro tras la línea */
+  border-top:2px solid rgba(255,255,255,.35); 
+  padding-top:12px;                           
+}
+button{
+    align-items: center;
+    background-color: #529ab6;
+    border: none;
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 18px;
+}
+#boton{
+    text-align: center;
 }
